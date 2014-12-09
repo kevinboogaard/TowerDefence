@@ -6,8 +6,13 @@ public class Enemy : MonoBehaviour {
 	public int speed;
 	public int damage;
 	public int currency;
-	void Start()
-	{
-		
-	}
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "Bullet")
+        {
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
+    }
 }

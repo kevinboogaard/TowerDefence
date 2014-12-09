@@ -61,8 +61,6 @@ public class Gridsystem : MonoBehaviour {
 		cube.AddComponent<Tilecheck>();
         cube.GetComponent<Tilecheck>().type = type;
 
-        cube.name = "Gridtile";
-		
 		cube.transform.position = location;
 	}
 
