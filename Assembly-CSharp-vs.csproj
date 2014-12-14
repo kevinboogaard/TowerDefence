@@ -46,19 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Buildings\Bullet.cs" />
-     <Compile Include="Assets\Scripts\Buildings\Tower.cs" />
-     <Compile Include="Assets\Scripts\Grid\Gridmap.cs" />
-     <Compile Include="Assets\Scripts\Grid\Tilecheck.cs" />
-     <Compile Include="Assets\Scripts\Manager\CreatureManager.cs" />
-     <Compile Include="Assets\Scripts\Manager\Managers.cs" />
-     <Compile Include="Assets\Scripts\Manager\TowerManager.cs" />
-     <Compile Include="Assets\Scripts\Manager\WaveManager.cs" />
-     <Compile Include="Assets\Scripts\OnGUI\DragButton.cs" />
-     <Compile Include="Assets\Scripts\Systems\Gridsystem.cs" />
-     <Compile Include="Assets\Scripts\Units\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Units\EnemySpawnScript.cs" />
-     <Compile Include="Assets\Scripts\Units\Navigation.cs" />
+     <Compile Include="Assets\Scripts\Game\Interface\StructureUID.cs" />
+     <Compile Include="Assets\Scripts\Game\Managers\CreatureManager.cs" />
+     <Compile Include="Assets\Scripts\Game\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Game\Managers\TowerManager.cs" />
+     <Compile Include="Assets\Scripts\Game\Managers\WaveManager.cs" />
+     <Compile Include="Assets\Scripts\Game\Systems\Grid\Gridmap.cs" />
+     <Compile Include="Assets\Scripts\Game\Systems\Grid\Tile.cs" />
+     <Compile Include="Assets\Scripts\Game\Systems\Gridsystem.cs" />
+     <Compile Include="Assets\Scripts\Game\Units\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Game\Units\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Game\Units\Structure.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>
